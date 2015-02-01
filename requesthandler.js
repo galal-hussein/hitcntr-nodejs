@@ -1,7 +1,7 @@
 function home(response) {
   // MongoDB Connection
   var body="";
-  var databaseUrl = "countdb";
+  var databaseUrl = "mongo/countdb";
   var collections = ["hits"];
   var db = require("mongojs").connect(databaseUrl, collections);
   
