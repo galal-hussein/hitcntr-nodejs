@@ -28,7 +28,7 @@ function home(response) {
 function reset(response) {
   // MongoDB Connection
   var body="";
-  var databaseUrl = "countdb";
+  var databaseUrl = "mongo/countdb";
   var collections = ["hits"];
   var db = require("mongojs").connect(databaseUrl, collections);
   db.hits.update({'count': {$gt: 0}},{$set: {'count':0}})
