@@ -20,7 +20,7 @@ function home(response) {
   });
   }
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write(body);
+    response.write("Website Hits: "+body);
     response.end();
  
 });}
