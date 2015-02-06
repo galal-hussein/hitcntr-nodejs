@@ -20,7 +20,7 @@ function home(response) {
   });
   }
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write("Hussein, hits: "+body);
+    response.write("WebHooks Worked, Hits: "+body);
     response.end();
  
 });}
