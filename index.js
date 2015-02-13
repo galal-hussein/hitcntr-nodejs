@@ -1,3 +1,4 @@
+require('newrelic');
 var server = require("./server.js");
 var router = require("./router");
 var requesthandler= require("./requesthandler");
