@@ -1,0 +1,26 @@
+{
+  "name": "hitcntr-nodejs",
+  "version": "0.0.0",
+  "description": "Just a Counter for page clicks",
+  "main": "index.js",
+  "dependencies": {
+    "JSON": "~1.0.0",
+    "mongodb": "~1.4.29",
+    "mongojs": "~0.18.1",
+    "nodejs": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galal-hussein/hitcntr-nodejs.git"
+  },
+  "author": "Hussein Galal",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/galal-hussein/hitcntr-nodejs/issues"
+  }
+}
